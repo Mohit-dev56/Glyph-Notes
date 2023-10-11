@@ -131,12 +131,16 @@ class _CreateNoteViewState extends State<CreateNoteView> {
                                           Navigator.pop(context);
                                           Navigator.pop(context);
                                         },
-                                        child: Text("Proceed")),
+                                        child: Text("Proceed",
+                                            style: TextStyle(
+                                                color: Colors.redAccent))),
                                     TextButton(
                                         onPressed: () {
                                           Navigator.pop(context);
                                         },
-                                        child: Text("Cancel"))
+                                        child: Text("Cancel",
+                                            style: TextStyle(
+                                                color: Colors.redAccent)))
                                   ],
                                 );
                               });

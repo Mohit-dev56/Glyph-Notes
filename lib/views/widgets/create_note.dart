@@ -109,7 +109,12 @@ class _CreateNoteViewState extends State<CreateNoteView> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.center,
                                     children: [
-                                      Lottie.asset(AnimationAssets.delete),
+                                      SizedBox(
+                                        child: Lottie.asset(
+                                            AnimationAssets.delete),
+                                        height: 100,
+                                        width: 100,
+                                      ),
                                       Text(
                                         " This will be permanently deleted.",
                                         style: TextStyle(

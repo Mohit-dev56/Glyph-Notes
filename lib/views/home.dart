@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:note_bucket/src/res/model/note.dart';
-import 'package:note_bucket/src/res/nue_box.dart';
 import 'package:note_bucket/src/res/services/local_bd.dart';
 import 'package:note_bucket/src/res/strings.dart';
 import 'package:note_bucket/views/widgets/create_note.dart';
@@ -83,7 +82,10 @@ class _HomeViewState extends State<HomeView> {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (context) => CreateNoteView()));
         },
-        child: NeuBox(child: Icon(Icons.add)),
+        backgroundColor: Color.fromARGB(235, 246, 6, 6),
+        child: Icon(
+          Icons.add,
+        ),
       ),
     );
   }

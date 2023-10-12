@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:note_bucket/src/res/model/note.dart';
 import 'package:note_bucket/Views/widgets/create_note.dart';
+import 'package:dynamic_color/dynamic_color.dart';
 
 class NoteListItem extends StatelessWidget {
   const NoteListItem({super.key, required this.note});

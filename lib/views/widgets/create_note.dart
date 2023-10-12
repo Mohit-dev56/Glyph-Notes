@@ -91,7 +91,6 @@ class _CreateNoteViewState extends State<CreateNoteView> {
                       child: IconButton(
                         icon: const Icon(
                           Icons.delete_outline,
-                          color: Color.fromARGB(235, 246, 6, 6),
                         ),
                         onPressed: () {
                           showDialog(
@@ -132,15 +131,13 @@ class _CreateNoteViewState extends State<CreateNoteView> {
                                           Navigator.pop(context);
                                         },
                                         child: Text("Proceed",
-                                            style: TextStyle(
-                                                color: Colors.redAccent))),
+                                            style: TextStyle())),
                                     TextButton(
                                         onPressed: () {
                                           Navigator.pop(context);
                                         },
-                                        child: Text("Cancel",
-                                            style: TextStyle(
-                                                color: Colors.redAccent)))
+                                        child:
+                                            Text("Cancel", style: TextStyle()))
                                   ],
                                 );
                               });
@@ -163,13 +160,15 @@ class _CreateNoteViewState extends State<CreateNoteView> {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: TextFormField(
-              maxLines: 13,
-              controller: _descriptionController,
-              decoration: const InputDecoration(
-                  border: InputBorder.none, hintText: "Description"),
-              style: GoogleFonts.poppins(
-                fontSize: 20,
+            child: SingleChildScrollView(
+              child: TextFormField(
+                maxLines: 10,
+                controller: _descriptionController,
+                decoration: const InputDecoration(
+                    border: InputBorder.none, hintText: "Description"),
+                style: GoogleFonts.poppins(
+                  fontSize: 20,
+                ),
               ),
             ),
           )

@@ -24,7 +24,7 @@ Follow these steps to get Glyph Notes up and running on your local machine.
 
 Clone the Repository:
 
-git clone https://github.com/ItzMohit_Gandhi/glyph-notes.git
+git clone https://github.com/ItzMohit_Gandhi/Glyph-Notes.git
 
 Navigate to the Project Directory:
 

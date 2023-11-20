@@ -28,7 +28,12 @@ Run the Application:
 flutter run
 
 Dependencies
+
 Glyph Notes relies on the following key dependencies:
+
+
 Flutter: UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+
 Isar: A high-performance, easy-to-use database for Flutter and Dart.
+
 Check the pubspec.yaml file for a complete list of dependencies and their versions.

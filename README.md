@@ -16,6 +16,7 @@ Clone the Repository:
 
 bash
 git clone https://github.com/ItzMohit_Gandhi/glyph-notes.git
+
 Navigate to the Project Directory:
 
 cd glyph-notes

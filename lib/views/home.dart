@@ -78,6 +78,7 @@ class _HomeViewState extends State<HomeView> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Color.fromRGBO(248, 10, 10, 0.864),
         onPressed: () {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (context) => CreateNoteView()));

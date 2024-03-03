@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:note_bucket/src/res/model/note.dart';
 import 'package:note_bucket/Views/widgets/create_note.dart';
 
+import 'create_note.dart';
+
 class NoteGridItem extends StatelessWidget {
   const NoteGridItem({super.key, required this.note});
 

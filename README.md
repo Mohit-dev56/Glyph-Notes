@@ -1,3 +1,7 @@
+![Screenshot_20240304-033120](https://github.com/MohittGandhi/Glyph-Notes/assets/87411710/57448888-35da-4509-a9fb-60d61a815ccf)
+![Screenshot_20240304-033100](https://github.com/MohittGandhi/Glyph-Notes/assets/87411710/53df5194-e1c0-4bb8-93d9-338c58d8bbbf)
+![Screenshot_20240304-032948](https://github.com/MohittGandhi/Glyph-Notes/assets/87411710/257e3759-9a62-4407-9324-0fae8d3bdf06)
+![Screenshot_20240304-033032](https://github.com/MohittGandhi/Glyph-Notes/assets/87411710/566fbfbf-bdee-487e-bb8c-7d303781936b)
 Glyph Notes - Flutter Notes App 
 
 Glyph Notes is a cross-platform notes application built using Flutter and powered by the Isar database library. 
